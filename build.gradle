@@ -27,3 +27,9 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+tasks.withType(Javadoc){
+	options.encoding = 'UTF-8'
+	options.charset = 'UTF-8'
+	options.docEncoding = 'UTF-8'
+	}
+	
